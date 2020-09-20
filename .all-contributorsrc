@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Achiaga",
+      "name": "Alfonso Achiaga",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/44972334?v=4",
+      "profile": "https://achiaga.now.sh/",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Frontend-Interview-Questions",
+  "projectOwner": "Achiaga",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
