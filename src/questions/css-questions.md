@@ -18,6 +18,7 @@
 >
 > [Link to answer 2](https://medium.com/youstart-labs/beginners-guide-to-choose-between-css-grid-and-flexbox-783005dd2412)
 
+<br />
 
 ### 2. Absolute vs Fixed
 >
@@ -36,3 +37,23 @@
 ##### Complete Answer:
 >
 > [Link to answer 1](https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/)
+
+<br />
+
+### 3. CSS Preprocessor
+>
+##### Short Answer:
+>
+> CSS Preprocessors are tools that extend the functionality of vanilla CSS by adding a wide variety of logical syntax such as you might see in a normal programming >language.
+>
+> One of the biggest drawbacks is that debugging takes longer. Since debugging is already harder than programming, this can be a true disadvantage.
+>
+> It can also be time-consuming to compile, and performance may be compromised. Extra-tooling, Performance.
+>
+##### Complete Answer:
+>
+> [Link to answer 1](https://adamsilver.io/articles/the-disadvantages-of-css-preprocessors/)
+>
+> [Link to answer 2](https://medium.com/@sedwardscode/css-preprocessors-what-why-how-7bc5a7a564de)
+>
+> [Link to answer 3](https://raygun.com/blog/10-reasons-css-preprocessor/)
