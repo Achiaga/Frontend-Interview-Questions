@@ -1,6 +1,6 @@
 # JS Questions
 
-### 1. Map, Reduce and Filter
+### 1. Difference Map, Reduce and Filter
 >
 ##### Short Answer:
 >
@@ -20,7 +20,7 @@
 
 <br />
 
-### 2. Debbuging Js
+### 2. What is Debbuging on Js
 >
 ##### Short Answer:
 >
@@ -36,7 +36,7 @@
 
 <br />
 
-### 3. Webpack
+### 3. Do you know what is Webpack?
 >
 ##### Short Answer:
 >
@@ -49,7 +49,7 @@
 
 <br />
 
-### 3. Javascript vs Vanilla Javascript
+### 4. What is the difference between Javascript vs Vanilla Javascript?
 >
 ##### Short Answer:
 >
@@ -62,7 +62,7 @@
 
 <br />
 
-### 3. Babel / ES2015+
+### 5. Don know anything between Babel and what is difference between ES2015+ and Js?
 >
 ##### Short Answer:
 >
