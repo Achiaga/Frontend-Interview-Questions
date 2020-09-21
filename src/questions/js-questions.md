@@ -4,13 +4,14 @@
 >
 ##### Short Answer:
 >
-> CSS Grid Layout is a two-dimensional system while flex is one dimension.
 >
-> CSS Grid’s approach is layout-first while Flexbox’ approach is content-first.
 >
-> Grid --> Complex | Flex --> Simple
 >
-> Grid --> Overlap elements
+>
+>
+>
+>
+>
 >
 ##### Complete Answer:
 >
@@ -32,7 +33,6 @@
 >
 > [Link to answer 1](https://raygun.com/learn/javascript-debugging-tips)
 >
-> [Link to answer 2](https://raygun.com/learn/javascript-debugging-tips)
 
 <br />
 
