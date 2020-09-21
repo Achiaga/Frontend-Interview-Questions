@@ -4,16 +4,13 @@
 >
 ##### Short Answer:
 >
+> CSS Grid Layout is a two-dimensional system while flex is one dimension.
 >
+> CSS Grid’s approach is layout-first while Flexbox’ approach is content-first.
 >
+> Grid --> Complex | Flex --> Simple
 >
->
->
->
->
->
->
->
+> Grid --> Overlap elements
 >
 ##### Complete Answer:
 >
@@ -35,6 +32,7 @@
 >
 > [Link to answer 1](https://raygun.com/learn/javascript-debugging-tips)
 >
+> [Link to answer 2](https://raygun.com/learn/javascript-debugging-tips)
 
 <br />
 
@@ -64,7 +62,7 @@
 
 <br />
 
-### 5. Don know anything between Babel and what is difference between ES2015+ and Js?
+### 5. Do you know Babel and what is difference between ES2015+ and Js?
 >
 ##### Short Answer:
 >
@@ -74,3 +72,47 @@
 >
 > [Link to answer 1](https://babeljs.io/docs/en/)
 >
+
+<br />
+
+### 6. What is the difference between Async/Await and Promises?
+>
+##### Short Answer:
+>
+> Defintion: It is an object that may produce a single value some time in the future. It use callbacks to handle the fullfilled value or rejection. A promise is an > object which can be returned synchronously from an asynchronous function.
+>
+> Promise: Only the promise chain itself is asyn. Sync code can be handled in the same callback. Then / Catch / Finally. For simple cases.
+>
+> Async: The entire wrapper function is async. Sync work needs to be moved out of the callback. Try / Chain / Finally. For Complex cases. (nicer syntax)
+>
+##### Complete Answer:
+>
+> [Link to answer 1](https://medium.com/better-programming/should-i-use-promises-or-async-await-126ab5c98789#:~:text=await%20is%20always%20for%20a,executed%20when%20the%20promise%20resolves.)
+>
+> [Link to answer 2](https://levelup.gitconnected.com/async-await-vs-promises-4fe98d11038f)
+>
+> This is not an answer but I think it is a nice article to read about async
+> [Related Link](https://medium.com/better-programming/is-javascript-synchronous-or-asynchronous-what-the-hell-is-a-promise-7aa9dd8f3bfb)
+>
+
+
+<br />
+
+### 7. What are callbacks?
+>
+##### Short Answer:
+>
+>
+>
+>
+>
+>
+>
+>
+##### Complete Answer:
+>
+> [Link to answer 1](https://medium.com/better-programming/should-i-use-promises-or-async-await-126ab5c98789#:~:text=await%20is%20always%20for%20a,executed%20when%20the%20promise%20resolves.)
+>
+> [Link to answer 1](https://levelup.gitconnected.com/async-await-vs-promises-4fe98d11038f)
+>
+
