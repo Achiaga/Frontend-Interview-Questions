@@ -102,17 +102,36 @@
 >
 ##### Short Answer:
 >
+> So a function that is passed to another function as a parameter is a callback function.
 >
->
->
->
->
+> Callbacks make sure that a function is not going to run before a task is completed but will run right after the task has completed. It helps us develop asynchronous JavaScript code and keeps us safe from problems and errors.
 >
 >
 ##### Complete Answer:
 >
-> [Link to answer 1](https://medium.com/better-programming/should-i-use-promises-or-async-await-126ab5c98789#:~:text=await%20is%20always%20for%20a,executed%20when%20the%20promise%20resolves.)
+> [Link to answer 1](https://www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/)
 >
-> [Link to answer 1](https://levelup.gitconnected.com/async-await-vs-promises-4fe98d11038f)
+
+
+<br />
+
+### 8. What is an Anonymous Function?
 >
+##### Short Answer:
+>
+> We can define a function directly inside another function, instead of calling it. It will look like this:
+>
+> ```js
+> setTimeout(function() {  
+>    console.log("This message is shown after 3 seconds");
+> }, 3000);
+> ```
+>
+> The callback function here has no name and a function definition without a name in JavaScript is called as an “anonymous function”. 
+>
+##### Complete Answer:
+>
+> [Link to answer 1](https://www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/)
+>
+
 
