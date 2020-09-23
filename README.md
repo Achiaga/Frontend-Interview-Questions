@@ -18,7 +18,7 @@ Even though some of these questions seems pretty easy, I recommend you to look a
   5. [HTML Questions](src/questions/html-questions.md)
   6. [CSS Questions](src/questions/css-questions.md)
   7. [JS Questions](src/questions/js-questions.md)
-  8. [React Questions](src/questions/React-questions.md)
+  8. [React Questions](src/questions/react-questions.md)
   9. [Testing Questions](src/questions/testing-questions.md)
   10. [Performance Questions](src/questions/performance-questions.md)
   11. [Fun Questions](src/questions/fun-questions.md)
