@@ -27,7 +27,10 @@ Even though some of these questions seems pretty easy, I recommend you to look a
 
 It would really help the quality of the project if people who are currently taking job interviews (like myself) add the questions they have been asked. So the repository is always up-to-date. Be sure to write the same answer and in many cases if the answer is too long you can link an article that has a good explanation of the question. 
 
-I believe in the core concept on understand the answers rather than learn them by heart. So I would appreciate if all the contributors have the same philosophy in mind.
+I believe in the core concept on understand the answers rather than learn them by heart. So I would appreciate if all the contributors have the same philosophy in mind. I everyone should follow the same semantic of adding next to the question a badge to show its difficulty.
+
+Ex: What is a callback function? [Junior, Mid]
+Ex: What's a typical use case for anonymous functions?  [Mid, Senior]
 
 ## Contributors ✨
 
