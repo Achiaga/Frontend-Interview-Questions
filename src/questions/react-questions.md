@@ -35,20 +35,28 @@
 
 <br />
 
-### 3. Do you know what is Webpack?
+### 3. Lifecycle React
 >
 ##### Short Answer:
 >
-> A static module bundler for modern javascript applications. It builds a dephency graph which maps every module of your project needs and it generates one or more bundles.
+> It’s very important to free up resources taken by the components when they are destroyed.
+> 
+>
+>
+>
+>
+>
+>
+>
 >
 ##### Complete Answer:
 >
-> [Link to answer 1](https://webpack.js.org/concepts/)
+> [Link to answer 1](https://reactjs.org/docs/state-and-lifecycle.html)
 >
 
 <br />
 
-### 4. What is the difference between Javascript vs Vanilla Javascript?
+### 4. Redux
 >
 ##### Short Answer:
 >
