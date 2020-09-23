@@ -12,16 +12,11 @@ Even though some of these questions seems pretty easy, I recommend you to look a
 ## Table of Contents
 
   1. [Personal Questions](src/questions/personal-questions.md)
-  2. [Junior Questions](src/questions/junior-questions.md)
-  3. [Mid Questions](src/questions/mid-questions.md)
-  4. [Senior Questions](src/questions/senior-questions.md)
-  5. [HTML Questions](src/questions/html-questions.md)
-  6. [CSS Questions](src/questions/css-questions.md)
-  7. [JS Questions](src/questions/js-questions.md)
-  8. [React Questions](src/questions/react-questions.md)
-  9. [Testing Questions](src/questions/testing-questions.md)
-  10. [Performance Questions](src/questions/performance-questions.md)
-  11. [Fun Questions](src/questions/fun-questions.md)
+  2. [HTML Questions](src/questions/html-questions.md)
+  3. [CSS Questions](src/questions/css-questions.md)
+  4. [JS Questions](src/questions/js-questions.md)
+  5. [React Questions](src/questions/react-questions.md)
+  6. [Fun Questions](src/questions/fun-questions.md)
   
   ## Contribute
 
@@ -30,6 +25,7 @@ It would really help the quality of the project if people who are currently taki
 I believe in the core concept on understand the answers rather than learn them by heart. So I would appreciate if all the contributors have the same philosophy in mind. I everyone should follow the same semantic of adding next to the question a badge to show its difficulty.
 
 Ex: What is a callback function? [Junior, Mid]
+
 Ex: What's a typical use case for anonymous functions?  [Mid, Senior]
 
 ## Contributors ✨
