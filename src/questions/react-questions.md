@@ -64,10 +64,7 @@
 >
 > Redux improves the aspects where React doesn’t do well. Ideally, the data in a component should live in just one component, so sharing data among sibling components becomes difficult.
 >
-> Now imagine what happens when a state has to be shared between components that are far apart in the component tree. The state has to be passed from one component to another until it gets to where it is needed.
->
->
-> It’s clear that state management gets messy as the app gets complex. This is why you need a state management tool like Redux
+> Now imagine what happens when a state has to be shared between components that are far apart in the component tree. The state has to be passed from one component to another until it gets to where it is needed. It’s clear that state management gets messy as the app gets complex. This is why you need a state management tool like Redux
 >
 > The way Redux works is simple. There is a central store that holds the entire state of the application. Each component can access the stored state without having to send down props from one component to another.
 >
