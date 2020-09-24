@@ -41,17 +41,25 @@
 >
 > It’s very important to free up resources taken by the components when they are destroyed.
 > 
+> **componentWillMount** is executed before rendering, on both the server and the client side.
 >
+> **componentDidMount** is executed after the first render only on the client side. This is where AJAX requests and DOM or state updates should occur. 
 >
+> **componentWillReceiveProps** is invoked as soon as the props are updated before another render is called.
 >
+> **shouldComponentUpdate** should return true or false value. This will determine if the component will be updated or not. This is set to true by default.
 >
+> **componentWillUpdate** is called just before rendering.
 >
+> **componentDidUpdate** is called just after rendering.
 >
->
+> **componentWillUnmount** is called after the component is unmounted from the dom. We are unmounting our component in main.js.
 >
 ##### Complete Answer:
 >
 > [Link to answer 1](https://reactjs.org/docs/state-and-lifecycle.html)
+>
+> [Link to answer 1](https://www.tutorialspoint.com/reactjs/reactjs_component_life_cycle.htm)
 >
 
 <br />
