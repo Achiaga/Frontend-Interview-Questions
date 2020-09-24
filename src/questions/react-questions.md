@@ -59,7 +59,7 @@
 >
 > [Link to answer 1](https://reactjs.org/docs/state-and-lifecycle.html)
 >
-> [Link to answer 1](https://www.tutorialspoint.com/reactjs/reactjs_component_life_cycle.htm)
+> [Link to answer 2](https://www.tutorialspoint.com/reactjs/reactjs_component_life_cycle.htm)
 >
 
 <br />
