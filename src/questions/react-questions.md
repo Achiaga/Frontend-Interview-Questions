@@ -75,9 +75,7 @@
 >
 > **Actions:** actions are events. They are the only way you can send data from your application to your Redux store. Actions are sent using the store.dispatch() method. Actions are plain JavaScript objects, and they must have a type property to indicate the type of action to be carried out.
 >
-> **Reducers:** Reducers are pure functions that take the current state of an application, perform an action, and return a new state.
->
-> As pure functions, they do not change the data in the object passed to them or perform any side effect in the application.
+> **Reducers:** Reducers are pure functions that take the current state of an application, perform an action, and return a new state. As pure functions, they do not change the data in the object passed to them or perform any side effect in the application.
 >
 > **Store:** holds the application state. There is only one store in any Redux application. You can access the state stored, update the state, and register or unregister listeners via helper methods.
 >
