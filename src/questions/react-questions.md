@@ -60,20 +60,43 @@
 >
 ##### Short Answer:
 >
-> No difference at all. Vanilla it is just a way to refer to native Javascript. It is a term to contrast between pure javascript and libraries/frameworks.
+> A Predictable State Container for JS Apps.
+>
+> Redux improves the aspects where React doesn’t do well. Ideally, the data in a component should live in just one component, so sharing data among sibling components becomes difficult.
+>
+> Now imagine what happens when a state has to be shared between components that are far apart in the component tree. The state has to be passed from one component to another until it gets to where it is needed.
+>
+>
+> It’s clear that state management gets messy as the app gets complex. This is why you need a state management tool like Redux
+>
+> The way Redux works is simple. There is a central store that holds the entire state of the application. Each component can access the stored state without having to send down props from one component to another.
+>
+> There are three building parts: actions, store, and reducers.
+>
+> **Actions:** actions are events. They are the only way you can send data from your application to your Redux store. Actions are sent using the store.dispatch() method. Actions are plain JavaScript objects, and they must have a type property to indicate the type of action to be carried out.
+>
+> **Reducers:** Reducers are pure functions that take the current state of an application, perform an action, and return a new state.
+>
+> As pure functions, they do not change the data in the object passed to them or perform any side effect in the application.
+>
+> **Store:** holds the application state. There is only one store in any Redux application. You can access the state stored, update the state, and register or unregister listeners via helper methods.
+>
 >
 ##### Complete Answer:
 >
-> [Link to answer 1](https://stackoverflow.com/questions/20435653/what-is-vanillajs)
+> [Link to answer 1](https://redux.js.org/introduction/getting-started)
+>
+> [Link to answer 2](https://blog.logrocket.com/why-use-redux-reasons-with-clear-examples-d21bffd5835/)
 >
 
 <br />
 
-### 5. Don know anything between Babel and what is difference between ES2015+ and Js?
+### 5. Testing
 >
 ##### Short Answer:
 >
-> Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments. 
+> 
+>
 >
 ##### Complete Answer:
 >
