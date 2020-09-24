@@ -135,3 +135,48 @@
 >
 
 
+<br />
+
+### 9. Rest API
+>
+##### Short Answer:
+>
+> API acts as a layer between your application and external service.
+>
+> REST API (Representational state transfer) is an API that uses HTTP requests for communication with web services and must comply with certain constraints.
+>
+> CRUD is a programming concept denoting four basic actions (create, read, update, and delete) that can be performed on a data source. POST, GET, PUT, DELETE.
+>
+> Endpoint is a specific address (for example, https://hotels-to-stay.com/best-hotels-paris), by referring to which (with certain request method) you get access to certain features/data (in our case – the list of best hotels in Paris).
+>
+> Example:
+>
+> Twitter also provides a REST API which a developer can query to source the latest tweets, or provide a search query that will return the results in JSON format.
+>
+> Instagram API permits your applications to retrieve user tags, photos, account and much more.
+>
+##### Complete Answer:
+>
+> [Link to answer 1](https://rapidapi.com/blog/how-to-use-an-api-with-javascript/)
+>
+> [Link to answer 2](https://blog.logrocket.com/axios-or-fetch-api/#:~:text=To%20send%20data%2C%20fetch(),set%20in%20the%20options%20object)
+>
+
+
+
+<br />
+
+### 10. API vs Restful API?
+>
+##### Short Answer:
+>
+> The first thing to understand is that API is the superset while REST API is the subset. This means all REST APIs are APIs while not all APIs are REST APIs.
+> 
+> REST stands for Representational State Transfer while API stands for Application Program Interface.
+>
+> While API is basically a set of functions and procedures that allow one application to access the feature of other application, REST is an architectural style for networked applications on the web.
+>
+##### Complete Answer:
+>
+> [Link to answer 1](https://www.freelancinggig.com/blog/2018/11/02/what-is-the-difference-between-api-and-rest-api/)
+>
