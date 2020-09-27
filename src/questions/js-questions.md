@@ -162,8 +162,6 @@
 > [Link to answer 2](https://blog.logrocket.com/axios-or-fetch-api/#:~:text=To%20send%20data%2C%20fetch(),set%20in%20the%20options%20object)
 >
 
-
-
 <br />
 
 ### 10. API vs Restful API?
@@ -179,4 +177,33 @@
 ##### Complete Answer:
 >
 > [Link to answer 1](https://www.freelancinggig.com/blog/2018/11/02/what-is-the-difference-between-api-and-rest-api/)
+>
+
+<br />
+
+### 11. What is 'this keyword in js'?
+>
+##### Short Answer:
+>
+> Every javascript function while executing has a reference to its current execution context, called this. Execution context means here is how the function is called.
+>
+> ```js
+>function bike() {
+>  console.log(this.name);
+>}
+>
+> var name = "Ninja";
+> var obj1 = { name: "Pulsar", bike: bike };
+> var obj2 = { name: "Gixxer", bike: bike };
+>
+> bike();           // "Ninja"
+> obj1.bike();      // "Pulsar"
+> obj2.bike();      // "Gixxer"
+>
+> ```
+> 
+>
+##### Complete Answer:
+>
+> [Link to answer 1](https://codeburst.io/all-about-this-and-new-keywords-in-javascript-38039f71780c)
 >
