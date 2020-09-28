@@ -207,3 +207,7 @@
 >
 > [Link to answer 1](https://codeburst.io/all-about-this-and-new-keywords-in-javascript-38039f71780c)
 >
+> [Link to answer 2](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+>
+> [Link to answer 3](https://medium.com/better-programming/understanding-the-this-keyword-in-javascript-cb76d4c7c5e8)
+>
