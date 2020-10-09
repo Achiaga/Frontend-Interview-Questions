@@ -1,23 +1,106 @@
 # JS Questions
 
-### 1. Difference Map, Reduce and Filter
+### 1. Difference Foreach, Filter, Map, and Reduce
 >
 ##### Short Answer:
 >
+> **Foreach** takes a callback function and run that callback function on each element of array one by one.
+> 
+ ```js
+ var sample = [1, 2, 3];
+
+ sample.forEach((elem, index) => `${elem} comes at ${index}`)
+
+ /*
+ output
+ 1 comes at 0
+ 2 comes at 1
+ 3 comes at 2
+ */
+
+```
 >
+> Basically forEach works as a traditional for loop looping over the array and providing you array elements to do operations on them.
+
+
+> **Filter:** The main difference between forEach and filter is that forEach just loop over the array and executes the callback but filter executes the callback and check its return value.
 >
+ ```js
+ var sample = [1, 2, 3];
+
+ var result = sample.filter(elem => elem !== 2)
+
+ /* output */
+ [1, 3]
+
+
+```
 >
+>Basically, if the callback function returns true, the current element will be in the resulting array. If it returns false, it won’t be.
+
+
+> **Map:** like filter & foreach takes a callback and run it against every element on the array but whats makes it unique is it generate a new array based on your existing array.
 >
+ ```js
+ var sample = [1, 2, 3] // i am never gonna change Boo! Yeah
+
+ let mapped = sample.map(elem => elem * 10)
+
+ /* output */
+ [10, 20, 30]
+
+```
 >
+> Like filter, map also returns an array. The provided callback to map modifies the array elements and save them into the new array upon completion that array get returned as the mapped array.
+
+
+> **Reduce:** Just like .map(), .reduce() also runs a callback for each element of an array. What’s different here is that reduce passes the result of this callback (the accumulator) from one array element to the other.
 >
+```js
+var pilots = [
+  {
+    id: 10,
+    name: "Poe Dameron",
+    years: 14,
+  },
+  {
+    id: 2,
+    name: "Temmin 'Snap' Wexley",
+    years: 30,
+  },
+  {
+    id: 41,
+    name: "Tallissan Lintra",
+    years: 16,
+  },
+  {
+    id: 99,
+    name: "Ello Asty",
+    years: 22,
+  }
+];
+
+// We need to know the total years of experience of all of them. With .reduce(), it’s pretty straightforward:
+
+const totalYears = pilots.reduce((acc, pilot) => acc + pilot.years, 0);
+
+// output: 82
+
+// Now let’s say I want to find which pilot is the most experienced one. For that, I can use reduce as well:
+
+var mostExpPilot = pilots.reduce(function (oldest, pilot) {
+  return (oldest.years || 0) > pilot.years ? oldest : pilot;
+}, {});
+
+```
 >
->
+> Like filter, map also returns an array. The provided callback to map modifies the array elements and save them into the new array upon completion that array get returned as the mapped array.
 >
 ##### Complete Answer:
 >
-> [Link to answer 1](https://codeburst.io/array-methods-explained-filter-vs-map-vs-reduce-vs-foreach-ea3127c6d319)
+> [Link to answer 1](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d)
 >
-> [Link to answer 2](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d)
+> [Link to answer 2](https://codeburst.io/array-methods-explained-filter-vs-map-vs-reduce-vs-foreach-ea3127c6d319)
 
 <br />
 
